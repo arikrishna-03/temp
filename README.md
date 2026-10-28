@@ -349,43 +349,6 @@ print("\nReconstructed Output:")
 print(output)
 ```
 
-**Remember:** input → mean/log variance → random sampling → decoder →
-sigmoid output. This does not train a complete VAE.
-
-## Quick Viva Revision
-
-  Term                  One-line answer
-  --------------------- ------------------------------------------------------------
-  Supervised learning   Learns from labelled data.
-  Classification        Predicts categories or classes.
-  MLP                   Multi-Layer Perceptron; a feedforward neural network.
-  Forward propagation   Calculates output through network layers.
-  CNN                   Neural network commonly used for image/spatial data.
-  ReLU                  `max(0, x)`.
-  Pooling               Reduces feature-map dimensions.
-  Confidence score      Model's confidence in a detection.
-  RNN                   Neural network for sequential data.
-  LSTM                  RNN architecture designed to learn long-term dependencies.
-  RBM                   Generative model with visible and hidden units.
-  VAE                   Generative model with a probabilistic latent space.
-  Accuracy              Correct predictions / total predictions.
-  Precision             True positives / predicted positives.
-  Recall                True positives / actual positives.
-  F1-score              Harmonic mean of precision and recall.
-
-## Important Corrections
-
--   **Experiment 4:** demonstrates convolution, ReLU and pooling; it
-    does not train a CNN.
--   **Experiment 5:** uses manually chosen features and weights; it is
-    not a trained CNN.
--   **Experiment 6:** filters by confidence; it does not calculate IoU
-    or perform actual NMS.
--   **Experiment 7:** uses a hand-written recurrence; it does not train
-    an RNN.
--   **Experiment 8:** obtains hidden features, not augmented images.
--   **Experiment 9:** the supplied code uses Logistic Regression, not
-    LSTM.
 -   **Experiment 10:** demonstrates VAE-like calculations with fixed
     weights, not a trained VAE.
 
