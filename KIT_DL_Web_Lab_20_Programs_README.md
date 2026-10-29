@@ -1,20 +1,28 @@
-# KIT Web Application Development Laboratory --- 20 Programs
-
-Each experiment is a standalone HTML file unless Experiment 6, which
-needs a separate CSS file. Copy a code block into the named file and
-open it in a browser.
-
 ## 1. Department Profile
 
 **Aim:** Use headings, paragraphs, bold text, links and highlighted
 announcements.
 
 ``` html
-<!DOCTYPE html><html><head><title>AI & DS Department</title></head><body>
-<h1>KIT - Department of AI &amp; DS</h1><nav><a href="#about">About</a> | <a href="#news">Announcements</a></nav>
-<section id="about"><h2>About Us</h2><p>Welcome to <b>Artificial Intelligence and Data Science</b>.</p><p>We study machine learning, analytics and computing.</p></section>
-<h2>Focus Areas</h2><ul><li>Machine Learning</li><li>Data Science</li><li>Web Development</li></ul>
-<section id="news"><h2>Announcements</h2><p><mark>Workshop registration is open.</mark></p></section>
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI & DS Department</title>
+</head><body>
+<h1>KIT - Department of AI &amp; DS</h1>
+<nav><a href="#about">About</a> | <a href="#news">Announcements</a></nav>
+<section id="about">
+<h2>About Us</h2>
+<p>Welcome to <b>Artificial Intelligence and Data Science</b>.</p>
+<p>We study machine learning, analytics and computing.</p>
+</section>
+<h2>Focus Areas</h2>
+<ul><li>Machine Learning</li>
+<li>Data Science</li>
+<li>Web Development</li>
+</ul>
+<section id="news"><h2>Announcements</h2>
+<p><mark>Workshop registration is open.</mark></p></section>
 <p>Contact: <a href="mailto:aidsoffice@example.com">Department Office</a></p></body></html>
 ```
 
