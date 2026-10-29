@@ -1,37 +1,3 @@
-<!-- Web Application Development Lab — GitHub README -->
-
-# Web Application Development Lab — 20 Programs with Output
-
-**KIT | AI & DS**
-
-This README contains 20 Web Application Development Lab programs with their aims, source code, expected outputs, and explanations. Each program is formatted for GitHub Markdown with syntax-highlighted code blocks.
-
-## Table of Contents
-
-1. [Department Profile Webpage](#experiment-1-department-profile-webpage)
-2. [Library Catalogue](#experiment-2-library-catalogue-using-tables-and-lists)
-3. [Student Registration Form](#experiment-3-student-registration-form)
-4. [Campus Placement Registration](#experiment-4-campus-placement-registration)
-5. [College Navigation Menu](#experiment-5-college-navigation-menu-with-hover)
-6. [Internal and External CSS](#experiment-6-internal-and-external-css)
-7. [Online Bookstore Layout](#experiment-7-online-bookstore-layout)
-8. [Student Portal Menu](#experiment-8-student-portal-menu-hover-effects)
-9. [Mandatory Field Validation](#experiment-9-validate-mandatory-examination-form-fields)
-10. [Email and Phone Validation](#experiment-10-validate-email-and-phone-number)
-11. [Update Student Marks](#experiment-11-update-student-marks-without-reloading)
-12. [Live Character Counter](#experiment-12-live-character-counter)
-13. [Dynamic Shopping Price](#experiment-13-dynamic-shopping-price)
-14. [Login Validation](#experiment-14-login-with-predefined-credentials)
-15. [Student Dashboard](#experiment-15-student-dashboard)
-16. [Tic-Tac-Toe](#experiment-16-tic-tac-toe-game)
-17. [Sudoku Solver](#experiment-17-sudoku-solver)
-18. [Unit Converter](#experiment-18-unit-converter)
-19. [Basic Calculator](#experiment-19-basic-calculator)
-20. [Calculation and Conversion Utility](#experiment-20-single-page-calculation-and-conversion-utility)
-
-> **How to use:** Copy each program into its own `.html` file and open it in a browser. Experiment 6 requires two files, `exp06.html` and `exp06.css`, saved in the same folder.
-
----
 
 ## Experiment 1: Department Profile Webpage
 
@@ -77,32 +43,6 @@ Program (`exp01.html`):
 </body>
 </html>
 ```
-
-Expected output:
-
-## KIT - Department of AI & DS
-
-About | Announcements
-
-### About Us
-
-Welcome to Artificial Intelligence and Data Science.
-
-We study machine learning, analytics and computing.
-
-### Focus Areas
-
-- Machine Learning
-- Data Science
-- Web Development
-  ### Announcements
-  Workshop registration is open.
-
-Contact: Department Office
-
-Explanation: `<h1>` and `<h2>` create headings, `<p>` creates paragraphs, `<ul>` and `<li>` create a list, `<a>` creates links, `<b>` makes text bold, and `<mark>` highlights text.
-
----
 
 ## Experiment 2: Library Catalogue Using Tables and Lists
 
@@ -156,28 +96,6 @@ Program (`exp02.html`):
 </body>
 </html>
 ```
-
-Expected output:
-
-## College Library
-
-Categories
-
-- Computer Science
-- Mathematics
-- General Reading
-
-Book Details
-
-| Title               | Author     | Category         | Status    |
-| ------------------- | ---------- | ---------------- | --------- |
-| Python Basics       | John Smith | Computer Science | Available |
-| Data Science Intro  | R. Kumar   | Computer Science | Issued    |
-| Applied Mathematics | A. Sharma  | Mathematics      | Available |
-
-Explanation: `<table>` creates a table, `<tr>` creates a row, `<th>` creates a heading cell, and `<td>` creates a data cell. `<ul>` creates an unordered list.
-
----
 
 ## Experiment 3: Student Registration Form
 
@@ -236,44 +154,6 @@ Program (`exp03.html`):
 </body>
 </html>
 ```
-
-Expected output:
-
-## Student Registration
-
-Name
-
-Enter your name
-
-Register No
-
-Enter register number
-
-Email
-
-Enter email address
-
-Phone
-
-Enter 10-digit phone number
-
-Department
-
-Choose Department
-
-Date of Birth
-
-Select date
-
-Register
-
-Reset
-
-On valid submission, the message “Registration details validated successfully.” appears below the form.
-
-Explanation: HTML form controls collect student information. The `required` attribute prevents empty submissions, `type="email"` checks email format, and JavaScript displays the success message.
-
----
 
 ## Experiment 4: Campus Placement Registration
 
@@ -340,20 +220,6 @@ Program (`exp04.html`):
 </html>
 ```
 
-Expected output:
-
-- Name field
-- Online and Offline radio buttons
-- Python, Java and Web checkboxes
-- Company dropdown
-- Submit and Reset buttons
-
-Example after submission:
-
-```
-Registered: Arjun; Online; Company A; Skills: Python, Web
-```
-
 Explanation: Radio buttons select one option, checkboxes allow multiple selections, and JavaScript displays the submitted details.
 
 ---
@@ -417,34 +283,6 @@ Program (`exp05.html`):
 </body>
 </html>
 ```
-
-Expected output:
-
-Home
-
-Departments
-
-Faculty
-
-Courses
-
-Contact
-
-## College Website
-
-Departments
-
-Faculty
-
-Courses
-
-Contact
-
-Moving the mouse over a menu link changes its background to orange.
-
-Explanation: CSS `:hover` applies styles when the pointer moves over an element.
-
----
 
 ## Experiment 6: Internal and External CSS
 
@@ -513,19 +351,6 @@ h2 {
 }
 ```
 
-Expected output:
-
-## Department of AI & DS
-
-## About
-
-We teach computing, analytics and intelligent systems.
-
-Project registration is open.
-
-Explanation: Internal CSS is written inside the `<style>` tag. External CSS is stored in a separate `.css` file and connected using `<link>`.
-
----
 
 ## Experiment 7: Online Bookstore Layout
 
@@ -605,32 +430,6 @@ Program (`exp07.html`):
 </html>
 ```
 
-Expected output:
-
-## Campus Bookstore
-
-Python Basics
-
-Programming
-
-₹450
-
-HTML & CSS
-
-Web Development
-
-₹350
-
-Data Science Guide
-
-Data Science
-
-₹550
-
-Explanation: CSS `display: flex` arranges book cards in a row. `padding`, `border`, `background` and `margin` control the layout and appearance.
-
----
-
 ## Experiment 8: Student Portal Menu Hover Effects
 
 Aim: To create a student portal sidebar with hover effects.
@@ -685,22 +484,6 @@ Program (`exp08.html`):
 </body>
 </html>
 ```
-
-Expected output:
-
-## Student Portal
-
-Profile
-
-Attendance
-
-Internal Marks
-
-Timetable
-
-Explanation: `display: block` stacks links vertically. The `:hover` selector changes their background and shifts the link slightly.
-
----
 
 ## Experiment 9: Validate Mandatory Examination Form Fields
 
@@ -760,21 +543,6 @@ Program (`exp09.html`):
 
 Expected output:
 
-When fields are empty:
-
-```
-Error: Fill in all mandatory fields.
-```
-
-When all fields are filled with a valid email:
-
-```
-Registration submitted successfully.
-```
-
-Explanation: JavaScript checks whether any field is empty. The regular expression checks the email format before showing success.
-
----
 
 ## Experiment 10: Validate Email and Phone Number
 
@@ -832,30 +600,6 @@ Program (`exp10.html`):
 </html>
 ```
 
-Expected output:
-
-Invalid email:
-
-```
-Invalid email address.
-```
-
-Invalid phone:
-
-```
-Phone must be exactly 10 digits.
-```
-
-Valid email and phone:
-
-```
-Email and phone are valid.
-```
-
-Explanation: The `validateEmail()` and `validatePhone()` functions use regular expressions to check input formats.
-
----
-
 ## Experiment 11: Update Student Marks Without Reloading
 
 Aim: To update student marks dynamically using JavaScript DOM manipulation.
@@ -899,27 +643,6 @@ Program (`exp11.html`):
 </html>
 ```
 
-Expected output:
-
-Initially:
-
-```
-Student: Arjun
-Mark: 72
-```
-
-Enter `85` and click Update:
-
-```
-Student: Arjun
-Mark: 85
-Marks updated.
-```
-
-Explanation: JavaScript reads the new mark and updates the `<span>` using `textContent`. The page does not reload.
-
----
-
 ## Experiment 12: Live Character Counter
 
 Aim: To count the number of characters typed into a feedback textarea.
@@ -951,20 +674,6 @@ Program (`exp12.html`):
 </body>
 </html>
 ```
-
-Expected output:
-
-## Feedback
-
-Good college facilities
-
-Characters: 23/200
-
-The displayed count updates as the user types or deletes characters.
-
-Explanation: The `input` event runs whenever the textarea changes. The `.length` property counts the characters.
-
----
 
 ## Experiment 13: Dynamic Shopping Price
 
@@ -1012,28 +721,6 @@ Program (`exp13.html`):
 </body>
 </html>
 ```
-
-Expected output:
-
-For quantity `1`:
-
-```
-Price per item: ₹500
-Quantity: 1
-Total: ₹500
-```
-
-For quantity `3`:
-
-```
-Price per item: ₹500
-Quantity: 3
-Total: ₹1500
-```
-
-Explanation: The JavaScript function multiplies the quantity by the unit price. The `input` event recalculates the total automatically.
-
----
 
 ## Experiment 14: Login With Predefined Credentials
 
@@ -1083,28 +770,6 @@ Program (`exp14.html`):
 </html>
 ```
 
-Expected output:
-
-## College Portal Login
-
-Username
-
-student
-
-Password
-
-••••••
-
-&#x20;Login successful!
-
-Demo credentials:
-
-- Username: `student`
-- Password: `kit123`
-
-Explanation: The `if` condition compares the entered username and password with the predefined values. This is only a classroom demonstration, not secure real-world authentication.
-
----
 
 ## Experiment 15: Login and Student Dashboard
 
@@ -1178,26 +843,6 @@ Program (`exp15.html`):
 </body>
 </html>
 ```
-
-Expected output:
-
-Before login, only the login form appears.
-
-After entering `student` and `kit123`:
-
-```
-Login successful
-
-Dashboard
-Attendance
-Internal Marks
-Timetable
-Course Materials
-```
-
-Explanation: CSS hides the dashboard using `.hidden`. JavaScript validates the login and reveals the dashboard when the credentials match.
-
----
 
 ## Experiment 16: Two-Player Tic-Tac-Toe
 
@@ -1289,38 +934,6 @@ Program (`exp16.html`):
 </body>
 </html>
 ```
-
-Expected output:
-
-## Tic-Tac-Toe
-
-Player X's turn
-
-# X
-
-#
-
-# O
-
-#
-
-# X
-
-#
-
-# O
-
-#
-
-# X
-
-Player X wins!
-
-Illustrative winning arrangement
-
-Explanation: An array stores the moves. The program checks eight winning combinations after each move, switches players and detects a draw when all cells are filled.
-
----
 
 ## Experiment 17: Sudoku Solver
 
@@ -1457,18 +1070,6 @@ Program (`exp17.html`):
 </html>
 ```
 
-Expected output:
-
-Initially, a 9 × 9 grid appears with a sample puzzle. Clicking Solve fills the grid with a solution and displays:
-
-```
-Puzzle solved!
-```
-
-Explanation: Backtracking tries numbers from 1 to 9 in empty cells. If a choice causes a conflict, it removes that number and tries another.
-
----
-
 ## Experiment 18: Measurement Unit Converter
 
 Aim: To convert kilometres, miles, kilograms, pounds and temperatures using JavaScript.
@@ -1546,24 +1147,6 @@ Program (`exp18.html`):
 </html>
 ```
 
-Expected output:
-
-For input `1` and option `Kilometres to Miles`:
-
-```
-0.62 miles
-```
-
-For input `25` and option `Celsius to Fahrenheit`:
-
-```
-77.00 °F
-```
-
-Explanation: The `switch` statement selects the appropriate conversion formula based on the dropdown selection. `toFixed(2)` displays two decimal places.
-
----
-
 ## Experiment 19: Basic Calculator
 
 Aim: To perform addition, subtraction, multiplication and division using JavaScript.
@@ -1638,27 +1221,6 @@ Program (`exp19.html`):
 </body>
 </html>
 ```
-
-Expected output:
-
-Enter `10` and `5`.
-
-| Operation | Output     |
-| --------- | ---------- |
-| Add       | Result: 15 |
-| Subtract  | Result: 5  |
-| Multiply  | Result: 50 |
-| Divide    | Result: 2  |
-
-If the second number is zero during division:
-
-```
-Division by zero is not allowed
-```
-
-Explanation: Each button represents an arithmetic operation. JavaScript uses `switch` to calculate the result and prevents division by zero.
-
----
 
 ## Experiment 20: Single-Page Calculation and Conversion Utility
 
@@ -1774,51 +1336,6 @@ Program (`exp20.html`):
 </body>
 </html>
 ```
-
-Expected output:
-
-For Add, enter `10` and `5`:
-
-```
-Result: 15
-```
-
-For Kilometres to Miles, enter `10`:
-
-```
-Result: 6.2137
-```
-
-For division by zero:
-
-```
-Division by zero is not allowed
-```
-
-Explanation: The program validates inputs, uses a function and `switch` to perform the selected operation, and displays the result without reloading the page.
-
-# Quick revision before the practical exam
-
-| Program                      | Main concept to remember          |
-| ---------------------------- | --------------------------------- |
-| 1. Department Profile        | Headings, links, lists            |
-| 2. Library Catalogue         | Tables and lists                  |
-| 3. Student Registration      | Forms and input types             |
-| 4. Placement Registration    | Radio, checkbox, select           |
-| 5. Navigation Menu           | CSS `:hover`                      |
-| 6. Internal and External CSS | `<style>` and `.css`              |
-| 7. Bookstore                 | Margin, padding, borders, Flexbox |
-| 8. Portal Menu               | Hover effects                     |
-| 9. Mandatory Fields          | DOM and form validation           |
-| 10. Email and Phone          | Functions and regular expressions |
-| 11. Update Marks             | `textContent`                     |
-| 12. Character Counter        | `input` event and `.length`       |
-| 13. Shopping Price           | Quantity × price                  |
-| 14. Login                    | `if...else`                       |
-| 15. Dashboard                | Login and show/hide               |
-| 16. Tic-Tac-Toe              | Arrays and winning combinations   |
-| 17. Sudoku                   | Recursion and backtracking        |
-| 18. Unit Converter           | `switch` and formulas             |
 | 19. Calculator               | Arithmetic operations             |
 | 20. Calculation Utility      | Validation, functions and DOM     |
 
