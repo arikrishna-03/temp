@@ -25,36 +25,50 @@ announcements.
 <p><mark>Workshop registration is open.</mark></p></section>
 <p>Contact: <a href="mailto:aidsoffice@example.com">Department Office</a></p></body></html>
 ```
-
-**Expected output:** Department heading, navigation links, focus-area
-list and highlighted announcement.\
-**Explanation:** Uses headings, paragraphs, lists, hyperlinks, bold and
-mark tags.
-
 ## 2. Library Catalogue Using Tables and Lists
 
 **Aim:** Display book titles, authors, categories and availability.
 
 ``` html
-<!DOCTYPE html><html><head><title>Library</title></head><body><h1>College Library</h1>
-<h2>Categories</h2><ul><li>Computer Science</li><li>Mathematics</li><li>General Reading</li></ul>
-<table border="1" cellpadding="8"><tr><th>Title</th><th>Author</th><th>Category</th><th>Status</th></tr>
-<tr><td>Python Basics</td><td>John Smith</td><td>Computer Science</td><td>Available</td></tr>
-<tr><td>Data Science Intro</td><td>R. Kumar</td><td>Computer Science</td><td>Issued</td></tr>
-<tr><td>Applied Mathematics</td><td>A. Sharma</td><td>Mathematics</td><td>Available</td></tr></table></body></html>
+<!DOCTYPE html>
+<html>
+<head><title>Library</title></head>
+<body><h1>College Library</h1>
+<h2>Categories</h2>
+<ul><li>Computer Science</li>
+<li>Mathematics</li>
+<li>General Reading</li></ul>
+<table border="1" cellpadding="8">
+<tr><th>Title</th>
+<th>Author</th>
+<th>Category</th>
+<th>Status</th></tr>
+<tr><td>Python Basics</td>
+<td>John Smith</td>
+<td>Computer Science</td>
+<td>Available</td></tr>
+<tr><td>Data Science Intro</td>
+<td>R. Kumar</td>
+<td>Computer Science</td>
+<td>Issued</td></tr>
+<tr><td>Applied Mathematics</td>
+<td>A. Sharma</td>
+<td>Mathematics</td>
+<td>Available</td>
+</tr></table>
+</body></html>
 ```
-
-**Expected output:** A category list and four-column book table.\
-**Explanation:** `<table>`, `<tr>`, `<th>`, `<td>` display tabular data;
-`<ul>` creates a list.
-
 ## 3. Student Registration Form
 
 **Aim:** Collect name, register number, email, phone, department and
 DOB.
 
 ``` html
-<!DOCTYPE html><html><head><title>Registration</title></head><body><h1>Student Registration</h1>
+<!DOCTYPE html>
+<html>
+<head><title>Registration</title></head>
+<body>
+<h1>Student Registration</h1>
 <form id="f"><label>Name <input required id="name"></label><br><br>
 <label>Register No. <input required id="reg"></label><br><br>
 <label>Email <input type="email" required></label><br><br>
@@ -64,18 +78,14 @@ DOB.
 <p id="msg"></p><script>document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();document.getElementById('msg').textContent='Registration details validated successfully.'})</script>
 </body></html>
 ```
-
-**Expected output:** Six form fields; valid submission shows a success
-message.\
-**Explanation:** HTML input types and `required`/`pattern` perform basic
-validation.
-
 ## 4. Campus Placement Registration
 
 **Aim:** Demonstrate radio buttons, checkboxes, dropdown, submit/reset.
 
 ``` html
-<!DOCTYPE html><html><head><title>Placement</title></head><body><h1>Placement Registration</h1>
+<!DOCTYPE html>
+<html><head><title>Placement</title></head>
+<body><h1>Placement Registration</h1>
 <form id="f"><label>Name <input id="name" required></label><p>Interview mode:</p>
 <label><input type="radio" name="mode" value="Online" required>Online</label><label><input type="radio" name="mode" value="Offline">Offline</label>
 <p>Skills:</p><label><input type="checkbox" name="skill" value="Python">Python</label><label><input type="checkbox" name="skill" value="Java">Java</label><label><input type="checkbox" name="skill" value="Web">Web</label>
@@ -366,45 +376,3 @@ switch(op){case'add':r=a+b;break;case'sub':r=a-b;break;case'mul':r=a*b;break;cas
 o.textContent='Result: '+Number(r.toFixed(4))}
 document.getElementById('go').addEventListener('click',calculate)</script></body></html>
 ```
-
-**Expected output:** Choose an operation, enter values and click
-Calculate; a result or validation error appears without reload.\
-**Explanation:** Combines form inputs, a function, `switch`, validation
-and DOM updates.
-
-------------------------------------------------------------------------
-
-# Quick Viva Revision
-
-    No. Topic             Remember
-  ----- ----------------- ----------------------------------------
-      1 Department page   Headings, links, semantic tags
-      2 Library           Tables and lists
-      3 Registration      Forms and input types
-      4 Placement form    Radio, checkbox, select
-      5 Navigation        CSS `:hover`
-      6 CSS types         Internal `<style>` and external `.css`
-      7 Bookstore         Margin, padding, border, flexbox
-      8 Portal menu       Hover effects
-      9 Required fields   DOM and submit event
-     10 Email/phone       Functions and regular expressions
-     11 Marks update      `textContent`, click event
-     12 Character count   `input` event, `.length`
-     13 Dynamic price     Unit price × quantity
-     14 Login             Conditions
-     15 Dashboard         Validation and show/hide
-     16 Tic-Tac-Toe       Arrays, turns, winner/draw
-     17 Sudoku            Recursion and backtracking
-     18 Converter         `switch` and formulas
-     19 Calculator        Arithmetic and divide-by-zero
-     20 Utility           Validation, function and DOM
-
-## Important notes
-
--   Experiment 6 needs **both files** in the same folder.
--   All other programs can be saved as individual `.html` files.
--   Experiments 14 and 15 use demo credentials `student` / `kit123`;
-    client-side credentials are for demonstration only, not real
-    security.
--   Experiment 17 uses a sample Sudoku puzzle. For arbitrary
-    user-entered puzzles, check that the starting clues do not conflict.
